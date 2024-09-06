@@ -1,0 +1,380 @@
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #ffffff;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5em;
+}
+
+main {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center; 
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#atleta-search {
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ddd;
+  border-radius: 5px 0 0 5px;
+  flex: 1;
+}
+
+#search-button {
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #00a79e;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+#search-button:hover {
+  background-color: #9fcdff;
+}
+
+#atleta-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  gap: 20px;
+}
+
+#atleta-list article {
+  background-color: #cacaca;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  width: calc(50% - 20px);
+  max-width: 500px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#atleta-list article:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+#atleta-list img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+#atleta-list h2 {
+  margin-bottom: 5px;
+  font-size: 1.5em;
+}
+
+#atleta-list p {
+  margin: 5px 0;
+}
+
+footer {
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.social-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.social-button {
+  display: flex;
+  align-items: center;
+  background-color: #25d366;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.social-button i {
+  margin-right: 8px;
+}
+
+.social-button:hover {
+  background-color: #1ebe5e;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #00a79e;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+.search-container {
+  margin-bottom: 20px;
+}
+
+#atleta-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+article {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 300px;
+  transition: transform 0.3s;
+}
+
+article img {
+  width: 100%;
+  height: auto;
+}
+
+article div {
+  padding: 15px;
+}
+
+a.more-info {
+  display: inline-block;
+  margin-top: 10px;
+  color: hsl(0, 3%, 17%);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a.more-info:hover {
+  text-decoration: underline;
+}
+
+.social-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.social-button {
+  display: flex;
+  align-items: center;
+  background-color: #8198fd;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.social-button:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  background-color: #00a79e;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes bounceIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.3);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.animate__animated.animate__fadeIn {
+  animation: fadeIn 1s ease-in;
+}
+
+.animate__animated.animate__bounceIn {
+  animation: bounceIn 1s ease-out;
+}
+
+article {
+  transition: transform 0.3s;
+}
+
+article:hover {
+  transform: scale(1.05);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  overflow-y: hidden;
+}
+#atleta-list {
+  flex: 1;
+  overflow-y: auto; 
+  max-height: 70vh; 
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+article {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+article img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+article h2 {
+  margin: 0;
+  font-size: 18px;
+}
+article p {
+  margin: 5px 0;
+}
+.more-info {
+  text-decoration: none;
+  color: #3498db;
+  font-weight: bold;
+}
+.search-container {
+  margin-top: 20px;
+}
+
+/* Estilo para os cartões dos atletas */
+.atleta-card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.atleta-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.atleta-info {
+  flex: 1;
+}
+
+.atleta-info h2 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.atleta-info p {
+  margin: 5px 0;
+}
+
+.more-info {
+  display: inline-block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.more-info:hover {
+  text-decoration: underline;
+}
+
+.no-results {
+  font-style: italic;
+  color: #888;
+}
+
+/* Adiciona um efeito de carregamento */
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  font-size: 1.2em;
+  color: #007bff;
+}
