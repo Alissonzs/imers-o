@@ -1,6 +1,6 @@
-# Atletas do Brasil
+# Atletas do Brasil - Catálogo Interativo de Atletas Brasileiros
 
-Este é um projeto web interativo que apresenta uma lista de atletas brasileiros notáveis em várias modalidades esportivas. Os usuários podem pesquisar por atletas, visualizar informações básicas e obter mais detalhes através de links para suas páginas na Wikipedia.
+Este é um projeto web interativo desenvolvido por **Alisson**, aluno do SENAI em Xambioá, Tocantins. O projeto apresenta uma lista de atletas brasileiros notáveis em várias modalidades esportivas. Os usuários podem pesquisar por atletas, visualizar informações básicas e obter mais detalhes através de links para suas páginas na Wikipedia.
 
 ## Funcionalidades
 
@@ -31,3 +31,6 @@ Este é um projeto web interativo que apresenta uma lista de atletas brasileiros
 ## Contribuições
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests.
+
+---
+Desenvolvido por **Alisson**, aluno do SENAI em Xambioá, Tocantins.
